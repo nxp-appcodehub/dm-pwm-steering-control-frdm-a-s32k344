@@ -7,8 +7,8 @@
  * Autosar Version : 4.9.0
  * Autosar Revision : ASR_REL_4_9_REV_0000
  * Autosar Conf.Variant :
- * SW Version : 7.0.0
- * Build Version : S32K3_RTD_7_0_0_QLP03_D2512_ASR_REL_4_9_REV_0000_20251210
+ * SW Version : 7.0.1
+ * Build Version : S32K3_RTD_7_0_1_D2602_ASR_REL_4_9_REV_0000_20260206
  *
  * Copyright 2020 - 2026 NXP
  *
@@ -150,11 +150,11 @@ extern "C"{
 /** @brief PWM frequency for servo control (50Hz) */
 #define PCA9685_SERVO_PWM_FREQ          50U
 /** @brief Servo minimum pulse width (~0.5ms = full CCW) */
-#define PCA9685_SERVO_MIN_PULSE         102U
+#define PCA9685_SERVO_MIN_PULSE         130U
 /** @brief Servo center pulse width (~1.5ms = center) */
 #define PCA9685_SERVO_CENTER_PULSE      307U
 /** @brief Servo maximum pulse width (~2.5ms = full CW) */
-#define PCA9685_SERVO_MAX_PULSE         512U
+#define PCA9685_SERVO_MAX_PULSE         325U
 
 /*==================================================================================================
  *                                             ENUMS
